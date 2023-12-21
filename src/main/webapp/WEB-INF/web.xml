@@ -1,0 +1,81 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CustomerRegistration</servlet-name>
+  	<display-name>CustomerRegistration</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.CustomerRegistration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CustomerLogin</servlet-name>
+  	<display-name>CustomerLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.CustomerLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddProductServlet</servlet-name>
+  	<display-name>AddProductServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddProductServlet2</servlet-name>
+  	<display-name>AddProductServlet2</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.AddProductServlet2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewProduct</servlet-name>
+  	<display-name>ViewProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.ViewProduct</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CartServlet</servlet-name>
+  	<display-name>CartServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.CartServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MyCartServlet</servlet-name>
+  	<display-name>MyCartServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.deloitte.java.servlets.MyCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerRegistration</servlet-name>
+  	<url-pattern>/CustomerRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerLogin</servlet-name>
+  	<url-pattern>/CustomerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewProduct</servlet-name>
+  	<url-pattern>/ViewProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CartServlet</servlet-name>
+  	<url-pattern>/CartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MyCartServlet</servlet-name>
+  	<url-pattern>/MyCartServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
